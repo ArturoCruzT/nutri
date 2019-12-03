@@ -1,7 +1,10 @@
 import Home from "./components/template/Home";
+import Formulario from "./components/Formulario/Formulario";
 
 const ROUTES = [
-    { exact: true, path: '/', component: Home }
+    { path: '/formulario', component: Formulario },
+    { exact: true, path: '/', component: Home },
+    
 ];
 
 export default ROUTES;
